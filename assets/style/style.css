@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+/*header -----------------------------------------------------------------------------*/
+.header-logo{
+    background: #2f5167;
+	width: 1200px;
+    margin: -2px auto;
+    height: 120px;
+    border: solid 1px ;
+}
+/*navigasi ---------------------------------------------------------------------------*/
+nav{
+    padding: 0;
+	margin: 0;
+	overflow: hidden;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    background: black;
+    border: solid 1px black;
+    height: 55px;
+ 
+}
+nav ul{
+    padding-top: -10px auto;
+    width: 100%;
+    margin: -5px auto;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    padding:11px;
+    text-decoration: none; 
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+nav ul li a{
+    background: black;
+    text-decoration: none;
+    display: block;
+    color: #f3f3f3;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background: white;
+    color: black;
+}
+form {
+    width:500px;
+    margin:11px auto;
+    float: right;
+    padding: 10px 10px;
+    text-align: right;
+    margin: -70px auto auto 0;
+}
+.search {
+    padding:8px 15px;
+    background:white;
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #2f5167;
+    background-color:#2f5167;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:black;
+}
+/*main -------------------------------------------------------------------------------*/
+main{   
+    width: 1200px;
+    margin: 55px auto;
+    flex-wrap: wrap;
+}
+/*content ----------------------------------------------------------------------------*/
+#content{
+    width: 73%;
+    float: left;
+    padding: 15px;
+    height: auto;
+}
+#content h1{
+    background-color: black;
+    padding: 15px;
+}
+#content h1 a{
+    text-decoration: none;
+    color: white;
+}
+#content article {
+    height: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Quicksand', sans-serif;
+    text-align: justify;
+
+}
+.card{
+    -webkit-box-shadow:4px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#alat-musik .border {
+    border-bottom: dashed;
+}
+/*aside ------------------------------------------------------------------------------*/
+.profil{ 
+    background:white;  
+    line-height: 30px; 
+    color: black; 
+    font-size: 20px;
+    float: right;
+    width: 27%;
+    -webkit-box-shadow:4px 4px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-left: -10px;
+    font-family:'Quicksand', sans-serif;
+}
+table{
+    margin: 10px;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.profil .profil-text{
+    font-size: 60px;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+}
+.profil h1{
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+    #content,
+    table{
+        width: 100%;
+        padding: 0; 
+    }
+    .profil{
+        width: 100%;
+        padding: 0;
+    }
+    }
+/*footer ------------------------------------------------------------------------------*/
+footer{
+    height:70px;
+    line-height:50px;
+    background:#333;
+    color:#fff;
+    width: 1200px;
+    float: left;
+    text-align: center;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
